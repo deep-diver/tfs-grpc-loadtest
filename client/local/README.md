@@ -6,6 +6,8 @@ I stored all required protobuf files in [this repository](https://github.com/jeo
 
 ## Run
 
+`bazel run //:main`
+
 ### Set up TF serving server
 
 ```sh
