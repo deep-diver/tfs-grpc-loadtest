@@ -6,7 +6,13 @@ I stored all required protobuf files in [this repository](https://github.com/jeo
 
 ## Run
 
-`bazel run //:main`
+```
+$ wget https://github.com/bazelbuild/bazel/releases/download/5.2.0/bazel-5.2.0-installer-linux-x86_64.sh
+$ chmod +x bazel-5.2.0-installer-linux-x86_64.sh
+$ ./bazel-5.2.0-installer-linux-x86_64.sh --user
+$ export PATH="$PATH:$HOME/bin"
+$ bazel run //:main
+```
 
 ### Set up TF serving server
 
